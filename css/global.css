@@ -7,9 +7,8 @@
 
 .footer {
   padding: 2rem 0;
+  /* create a column for each footer category */
 }
-
-/* create a column for each footer category */
 .footer__col {
   display: inline-block;
   box-sizing: border-box;
@@ -18,11 +17,9 @@
   vertical-align: top;
   /* padding: 50px; */
 }
-
 .footer__days-open {
   display: flex;
 }
-
 .footer__social-icon {
   width: 3.125rem;
 }/*# sourceMappingURL=global.css.map */

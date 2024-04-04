@@ -1,24 +1,24 @@
 * {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  &__logo {
   }
-  .header {
+  &__nav {
   }
-  .header__logo {
+  &__links {
   }
-  .header__nav {
+  &__link:active {
   }
-  .header__links {
-  }
-  .header__link:active {
-  }
-  .footer {
-    padding: 2rem 0;
-  }
+}
+
+.footer {
+  padding: 2rem 0;
   /* create a column for each footer category */
-  .footer__col {
+  &__col {
     display: inline-block;
     box-sizing: border-box;
     width: 30%;
@@ -26,21 +26,21 @@
     vertical-align: top;
     /* padding: 50px; */
   }
-  .footer__heading {
+  &__heading {
   }
-  .footer__sub-heading {
+  &__sub-heading {
   }
-  .footer__email {
+  &__email {
   }
-  .footer__days-open {
+  &__days-open {
     display: flex;
   }
-  .footer__day-hours {
+  &__day-hours {
   }
-  .footer__hours {
+  &__hours {
   }
-  
-  .footer__social-icon {
+
+  &__social-icon {
     width: 3.125rem;
   }
-  
+}

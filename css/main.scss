@@ -1,12 +1,11 @@
 .hero {
-    background: #fefaf5;
-    display: flex;
-    justify-content: left;
-  }
-  .hero__slogan {
+  background: #fefaf5;
+  display: flex;
+  justify-content: left;
+  &__slogan {
     color: #335576;
   }
-  .hero__cta {
+  &__cta {
     background: #db7a4e;
     display: inline-block;
     padding: 0.5rem 2rem;
@@ -15,17 +14,16 @@
     border-radius: 20px;
     text-align: center;
   }
-  .hero__banner {
+  &__banner {
   }
-  
-  .itinerary {
+}
+.destination {
+  &__heading {
   }
-  .itinerary__heading {
-  }
-  .itinerary__cards {
+  &__cards {
     display: flex;
   }
-  .itinerary__card {
+  &__card {
     background-image: url(../assets/images/hawaii.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -36,8 +34,4 @@
     justify-content: space-evenly;
     /* flex-direction: column; */
   }
-  /* .itinerary__country {
-    align-items: flex-end;
-    justify-content: flex-end;
-  } */
-  
+}
