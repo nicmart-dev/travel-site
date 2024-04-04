@@ -1,0 +1,42 @@
+.hero {
+  background: #fefaf5;
+  display: flex;
+  justify-content: left;
+}
+.hero__slogan {
+  color: #335576;
+}
+.hero__cta {
+  background: #db7a4e;
+  display: inline-block;
+  padding: 0.5rem 2rem;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  text-align: center;
+}
+.hero__banner {
+}
+
+.itinerary {
+}
+.itinerary__heading {
+}
+.itinerary__cards {
+  display: flex;
+}
+.itinerary__card {
+  background-image: url(../assets/images/hawaii.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  width: 350px;
+  align-items: center;
+  justify-content: space-evenly;
+  /* flex-direction: column; */
+}
+/* .itinerary__country {
+  align-items: flex-end;
+  justify-content: flex-end;
+} */

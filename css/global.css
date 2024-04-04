@@ -1,0 +1,45 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+}
+.header__logo {
+}
+.header__nav {
+}
+.header__links {
+}
+.header__link:active {
+}
+.footer {
+  padding: 2rem 0;
+}
+/* create a column for each footer category */
+.footer__col {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 30%;
+  padding-left: 10%;
+  vertical-align: top;
+  /* padding: 50px; */
+}
+.footer__heading {
+}
+.footer__sub-heading {
+}
+.footer__email {
+}
+.footer__days-open {
+  display: flex;
+}
+.footer__day-hours {
+}
+.footer__hours {
+}
+
+.footer__social-icon {
+  width: 3.125rem;
+}
