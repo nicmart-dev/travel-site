@@ -3,9 +3,11 @@
   display: flex;
   justify-content: left;
 }
+
 .hero__slogan {
   color: #335576;
 }
+
 .hero__cta {
   background: #db7a4e;
   display: inline-block;
@@ -15,16 +17,11 @@
   border-radius: 20px;
   text-align: center;
 }
-.hero__banner {
-}
 
-.itinerary {
-}
-.itinerary__heading {
-}
 .itinerary__cards {
   display: flex;
 }
+
 .itinerary__card {
   background-image: url(../assets/images/hawaii.jpg);
   background-repeat: no-repeat;
@@ -36,7 +33,8 @@
   justify-content: space-evenly;
   /* flex-direction: column; */
 }
+
 /* .itinerary__country {
   align-items: flex-end;
   justify-content: flex-end;
-} */
+} *//*# sourceMappingURL=main.css.map */
