@@ -1,15 +1,17 @@
+@use "variables" as *;
+
 .hero {
-  background: #fefaf5;
+  background: $color-neutral-light;
   display: flex;
   justify-content: left;
   &__slogan {
-    color: #335576;
+    color: $color-primary;
   }
   &__cta {
-    background: #db7a4e;
+    background: $color-secondary;
     display: inline-block;
     padding: 0.5rem 2rem;
-    color: white;
+    color: $color-neutral-lightest;
     text-decoration: none;
     border-radius: 20px;
     text-align: center;
@@ -22,16 +24,23 @@
   }
   &__cards {
     display: flex;
+    justify-content: center;
   }
   &__card {
-    background-image: url(../assets/images/hawaii.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 600px;
-    width: 350px;
-    align-items: center;
-    justify-content: space-evenly;
-    /* flex-direction: column; */
+    width: 300px;
+    position: relative;
+    margin: 25px;
+    overflow: hidden; // to display rounded border on child img
+    box-shadow: $box-shadow;
+    display: grid; // fit the entire image height
+  }
+  &__img {
+    max-width: 100%;
+  }
+  &__country {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 1.25rem;
   }
 }

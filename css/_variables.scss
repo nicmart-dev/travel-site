@@ -1,0 +1,16 @@
+$font-primary: Verdana, sans-serif;
+
+// Colours following Mike Street and Marcus Ortense naming conventions
+// per https://css-tricks.com/what-do-you-name-color-variables/
+$color-primary: #335576;
+$color-secondary: #db7a4e;
+$color-neutral-lightest: #fff;
+$color-neutral-light: #fefaf5;
+$color-neutral-darkest: #000;
+$color-neutral-dark: rgba($color-neutral-darkest, 0.2);
+
+// cards borders and shadow
+$border-radius: 0.313rem;
+$box-shadow: 0 0.25rem 0.25rem $color-neutral-dark;
+
+$max-site-width: 1280px;

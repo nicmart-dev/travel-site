@@ -1,9 +1,35 @@
+@use "variables" as *;
+
 * {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  font-family: $font-primary;
+  color: $color-primary;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: $color-primary;
+}
+
+h3 {
+  color: $color-secondary;
+  font-size: 0.625rem;
+}
+
+.card {
+  border: 1px solid $color-neutral-dark;
+  border-radius: $border-radius;
+}
+
+.country {
+  color: $color-neutral-lightest;
+}
+
 .header {
   &__logo {
   }
@@ -16,19 +42,24 @@
 }
 
 .footer {
-  padding: 2rem 0;
+  padding: 2rem 5rem;
+  background-color: $color-neutral-light;
+  display: flex;
+  justify-content: space-between;
+
   /* create a column for each footer category */
   &__col {
     display: inline-block;
     box-sizing: border-box;
-    width: 30%;
-    padding-left: 10%;
+    // padding-left: 10%;
     vertical-align: top;
     /* padding: 50px; */
   }
   &__heading {
+    padding-bottom: 20px;
   }
   &__sub-heading {
+    padding-bottom: 10px;
   }
   &__email {
   }
@@ -40,7 +71,14 @@
   &__hours {
   }
 
+  &__social-link {
+    display: inline-block;
+    list-style-type: none;
+    // padding-right: 1.25rem;
+  }
+
   &__social-icon {
-    width: 3.125rem;
+    width: 40%;
+    height: auto;
   }
 }

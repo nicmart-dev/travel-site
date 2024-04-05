@@ -1,25 +1,61 @@
 * {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+body {
+  font-family: Verdana, sans-serif;
+  color: #335576;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #335576;
+}
+
+h3 {
+  color: #db7a4e;
+  font-size: 0.625rem;
+}
+
+.card {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.313rem;
+}
+
+.country {
+  color: #fff;
+}
+
 .footer {
-  padding: 2rem 0;
+  padding: 2rem 5rem;
+  background-color: #fefaf5;
+  display: flex;
+  justify-content: space-between;
   /* create a column for each footer category */
 }
 .footer__col {
   display: inline-block;
   box-sizing: border-box;
-  width: 30%;
-  padding-left: 10%;
   vertical-align: top;
   /* padding: 50px; */
+}
+.footer__heading {
+  padding-bottom: 20px;
+}
+.footer__sub-heading {
+  padding-bottom: 10px;
 }
 .footer__days-open {
   display: flex;
 }
+.footer__social-link {
+  display: inline-block;
+  list-style-type: none;
+}
 .footer__social-icon {
-  width: 3.125rem;
+  width: 40%;
+  height: auto;
 }/*# sourceMappingURL=global.css.map */

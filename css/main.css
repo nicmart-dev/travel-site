@@ -10,22 +10,29 @@
   background: #db7a4e;
   display: inline-block;
   padding: 0.5rem 2rem;
-  color: white;
+  color: #fff;
   text-decoration: none;
   border-radius: 20px;
   text-align: center;
 }
 .destination__cards {
   display: flex;
+  justify-content: center;
 }
 .destination__card {
-  background-image: url(../assets/images/hawaii.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 600px;
-  width: 350px;
-  align-items: center;
-  justify-content: space-evenly;
-  /* flex-direction: column; */
+  width: 300px;
+  position: relative;
+  margin: 25px;
+  overflow: hidden;
+  box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.2);
+  display: grid;
+}
+.destination__img {
+  max-width: 100%;
+}
+.destination__country {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 1.25rem;
 }/*# sourceMappingURL=main.css.map */
