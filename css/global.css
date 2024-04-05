@@ -15,7 +15,7 @@ a {
   color: #335576;
 }
 
-h3 {
+h4 {
   color: #db7a4e;
   font-size: 0.625rem;
 }
@@ -27,6 +27,33 @@ h3 {
 
 .country {
   color: #fff;
+}
+
+.header {
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+.header__logo {
+  font-size: medium;
+}
+.header__links {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin: auto;
+}
+.header__list-item {
+  list-style: none;
+}
+main {
+  margin-top: 100px;
 }
 
 .footer {

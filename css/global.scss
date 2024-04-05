@@ -16,7 +16,7 @@ a {
   color: $color-primary;
 }
 
-h3 {
+h4 {
   color: $color-secondary;
   font-size: 0.625rem;
 }
@@ -31,14 +31,43 @@ h3 {
 }
 
 .header {
+  background-color: $color-neutral-lightest;
+  //The Navigation Bar must be fixed to the top of the page
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+
+  padding: 1rem;
+
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+
   &__logo {
+    font-size: medium;
   }
   &__nav {
   }
+
   &__links {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: auto;
   }
+  &__list-item {
+    list-style: none;
+  }
+  &__link {
+  }
+
   &__link:active {
   }
+}
+
+main {
+  margin-top: 100px; //add padding so navigation bar is at top of page and does not overlap main element.
 }
 
 .footer {
