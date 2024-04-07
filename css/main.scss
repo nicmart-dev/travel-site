@@ -21,18 +21,27 @@
 }
 .destination {
   &__heading {
+    margin: 3rem 0 0 5rem;
   }
   &__cards {
     display: flex;
     justify-content: center;
+    padding: 0 12.5rem 2rem;
   }
   &__card {
-    width: 300px;
     position: relative;
-    margin: 25px;
     overflow: hidden; // to display rounded border on child img
-    box-shadow: $box-shadow;
+    box-shadow: $box-shadow; // put here as only applies to destination card, not itinerary.
     display: grid; // fit the entire image height
+    transition: transform 0.3s ease; // not requirement, but simple transition to look better.
+
+    &:hover {
+      transform: translateY(-5px);
+    }
+  }
+
+  &__link {
+    margin: 1.563rem; // add margin to link instead of card so it is not part of clickable area.
   }
   &__img {
     max-width: 100%;
@@ -42,5 +51,6 @@
     bottom: 0;
     right: 0;
     padding: 1.25rem;
+    font-size: 1.25rem;
   }
 }
