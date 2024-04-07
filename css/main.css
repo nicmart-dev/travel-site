@@ -1,12 +1,21 @@
 .hero {
   background: #fefaf5;
   display: flex;
-  justify-content: left;
+  justify-content: space-between;
+  padding: 0 5rem;
+  align-items: center;
+  height: 60vh;
 }
 .hero__slogan {
   color: #335576;
+  text-align: left;
+  max-width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 50%;
 }
-.hero__cta {
+.hero__cta-container {
   background: #db7a4e;
   display: inline-block;
   padding: 0.5rem 2rem;
@@ -14,7 +23,18 @@
   text-decoration: none;
   border-radius: 20px;
   text-align: center;
+  width: -moz-fit-content;
+  width: fit-content;
 }
+.hero__banner {
+  background: url("../assets/images/hero.png") no-repeat center;
+  background-size: contain;
+  background-origin: content-box;
+  width: 40%;
+  height: 100%;
+  padding: 4rem 0;
+}
+
 .destination__heading {
   margin: 3rem 0 0 5rem;
 }

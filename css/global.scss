@@ -8,7 +8,6 @@
 body {
   font-family: $font-primary;
   color: $color-primary;
-  margin: 0;
 }
 
 a {
@@ -16,9 +15,30 @@ a {
   color: $color-primary;
 }
 
+h1,
+h2,
+h3 {
+  letter-spacing: -2px;
+}
+
 h4 {
   color: $color-secondary;
   font-size: 0.625rem;
+}
+p {
+  font-size: 0.9rem;
+  letter-spacing: -1px;
+}
+h3 {
+  font-size: 1.2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h1 {
+  font-size: 2.3rem;
 }
 
 .card {
@@ -38,14 +58,13 @@ h4 {
   width: 100%;
   z-index: 1;
 
-  padding: 1rem;
+  padding: 1rem 5rem;
 
   display: flex;
   justify-content: space-between;
   margin: auto;
 
   &__logo {
-    font-size: medium;
   }
   &__nav {
   }
@@ -67,7 +86,7 @@ h4 {
 }
 
 main {
-  margin-top: 100px; //add padding so navigation bar is at top of page and does not overlap main element.
+  margin-top: 3rem; //add padding so navigation bar is at top of page and does not overlap main element.
 }
 
 .footer {

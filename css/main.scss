@@ -3,11 +3,21 @@
 .hero {
   background: $color-neutral-light;
   display: flex;
-  justify-content: left;
+  justify-content: space-between;
+  padding: 0 5rem;
+  align-items: center;
+  height: 60vh;
   &__slogan {
     color: $color-primary;
+    text-align: left; // requirement that text must be left aligned (declaring here in case default value is changing).
+    max-width: 40%;
+
+    display: flex; // use flex to padd evenly each row
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50%;
   }
-  &__cta {
+  &__cta-container {
     background: $color-secondary;
     display: inline-block;
     padding: 0.5rem 2rem;
@@ -15,8 +25,15 @@
     text-decoration: none;
     border-radius: 20px;
     text-align: center;
+    width: fit-content; // overwrite parent flex so it does not fit entire parent width
   }
   &__banner {
+    background: url("../assets/images/hero.png") no-repeat center;
+    background-size: contain;
+    background-origin: content-box;
+    width: 40%;
+    height: 100%;
+    padding: 4rem 0;
   }
 }
 .destination {
