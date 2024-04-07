@@ -16,7 +16,8 @@ a {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   letter-spacing: -2px;
 }
 
@@ -62,15 +63,28 @@ h1 {
   justify-content: space-between;
   margin: auto;
 }
+.header__nav {
+  width: 25%;
+}
 .header__links {
   display: flex;
   flex-wrap: nowrap;
-  justify-content: space-between;
-  margin: auto;
+  justify-content: space-evenly;
 }
 .header__list-item {
   list-style: none;
 }
+.header__link {
+  color: #000;
+  font-weight: bold;
+  font-size: 0.9rem;
+  letter-spacing: -1px;
+}
+.header__link--active {
+  padding-bottom: 0.4rem;
+  border-bottom: 4px solid #db7a4e;
+}
+
 main {
   margin-top: 3rem;
 }

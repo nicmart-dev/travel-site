@@ -17,7 +17,8 @@ a {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   letter-spacing: -2px;
 }
 
@@ -67,21 +68,27 @@ h1 {
   &__logo {
   }
   &__nav {
+    width: 25%;
   }
 
   &__links {
     display: flex;
     flex-wrap: nowrap;
-    justify-content: space-between;
-    margin: auto;
+    justify-content: space-evenly;
+    // margin: auto;
   }
   &__list-item {
     list-style: none;
   }
   &__link {
-  }
-
-  &__link:active {
+    color: $color-neutral-darkest;
+    font-weight: bold;
+    font-size: 0.9rem;
+    letter-spacing: -1px;
+    &--active {
+      padding-bottom: 0.4rem;
+      border-bottom: 4px solid $color-secondary;
+    }
   }
 }
 
