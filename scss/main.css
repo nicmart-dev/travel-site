@@ -125,4 +125,76 @@ main {
 }
 .footer__social-icon {
   height: 1.5rem;
-}/*# sourceMappingURL=global.css.map */
+}
+
+.hero {
+  background: #fefaf5;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5rem;
+  align-items: center;
+  height: 60vh;
+}
+.hero__slogan {
+  color: #335576;
+  text-align: left;
+  max-width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 50%;
+}
+.hero__cta-container {
+  background: #db7a4e;
+  display: inline-block;
+  padding: 0.5rem 2rem;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 20px;
+  text-align: center;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.hero__banner {
+  background: url("../assets/images/hero.png") no-repeat center;
+  background-size: contain;
+  background-origin: content-box;
+  width: 40%;
+  height: 100%;
+  padding: 4rem 0;
+}
+
+.destination__heading {
+  margin: 3rem 0 0 5rem;
+}
+.destination__cards {
+  display: flex;
+  justify-content: center;
+  padding: 0 12.5rem 3rem;
+}
+.destination__card {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.2);
+  display: grid;
+  transition: transform 0.3s ease;
+}
+.destination__card:hover {
+  transform: translateY(-5px);
+}
+.destination__link {
+  margin: 1.563rem;
+}
+.destination__img {
+  max-width: 100%;
+}
+.destination__country {
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 1.25rem;
+  font-size: 1.25rem;
+  letter-spacing: 0px;
+}/*# sourceMappingURL=main.css.map */
