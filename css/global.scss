@@ -43,12 +43,7 @@ h1 {
 }
 
 .card {
-  border: 1px solid $color-neutral-dark;
   border-radius: $border-radius;
-}
-
-.country {
-  color: $color-neutral-lightest;
 }
 
 .header {
@@ -66,6 +61,7 @@ h1 {
   margin: auto;
 
   &__logo {
+    font-weight: 900; // not sure why it is not showing as bold as in mockup.
   }
   &__nav {
     width: 25%;
@@ -75,7 +71,6 @@ h1 {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-evenly;
-    // margin: auto;
   }
   &__list-item {
     list-style: none;
@@ -103,29 +98,22 @@ main {
   justify-content: space-between;
 
   /* distribute space between each section */
-  // &__contact-section,
-  // &__social-section {
-  //   flex-grow: 1;
-  // }
-  // &__hours-section {
-  //   flex-grow: 2;
-  // }
+
   &__heading {
     padding-bottom: 20px;
-  }
-  &__hours-table {
-    display: flex;
-    justify-content: space-between;
   }
   &__sub-heading {
     padding-bottom: 10px;
   }
 
+  &__hours-table {
+    display: flex;
+    justify-content: space-between;
+  }
   &__hours-section {
     width: 45%;
   }
   &__social-section {
-    // margin-left: 1rem;
     width: 15%;
   }
   &__social-icons {
@@ -133,12 +121,7 @@ main {
     justify-content: space-between;
     align-items: flex-end;
     height: 2.5rem;
-    // width: 2rem;
   }
-  // &__social-link {
-  //   width: 35%;
-  //   height: 1rem;
-  // }
 
   &__social-icon {
     height: 1.5rem;

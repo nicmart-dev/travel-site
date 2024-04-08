@@ -1,0 +1,55 @@
+@use "variables" as *;
+
+.itinerary {
+  &--greece {
+    background-image: url("../assets/images/greece.jpg");
+  }
+  &--iceland {
+    background-image: url("../assets/images/iceland.jpg");
+  }
+  &--hawaii {
+    background-image: url("../assets/images/hawaii.jpg");
+  }
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  //   background-origin: content-box;
+  height: 80vh;
+  //   height: 100%;
+  &__country {
+    padding: 3rem 0 3rem 5rem;
+    color: $color-neutral-lightest;
+    font-size: 3.5rem;
+  }
+  &__cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 12.5rem 3rem;
+  }
+  &__card {
+    background-color: $color-neutral-lightest;
+    width: 30%;
+    padding: 0.5rem 0.5rem 3.5rem 0.5rem;
+    text-align: center;
+    height: 45vh;
+    margin: auto;
+  }
+  &__title {
+    color: $color-neutral-darkest;
+    border-bottom: 2px solid $color-neutral-darkest;
+  }
+
+  &__activities {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    height: 100%;
+  }
+  &__activity {
+    list-style: none;
+    color: $color-neutral-darkest;
+    padding: 1rem 0;
+    background-color: $color-neutral-light;
+  }
+}

@@ -44,12 +44,7 @@ h1 {
 }
 
 .card {
-  border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 0.313rem;
-}
-
-.country {
-  color: #fff;
 }
 
 .header {
@@ -62,6 +57,9 @@ h1 {
   display: flex;
   justify-content: space-between;
   margin: auto;
+}
+.header__logo {
+  font-weight: 900;
 }
 .header__nav {
   width: 25%;
@@ -99,12 +97,12 @@ main {
 .footer__heading {
   padding-bottom: 20px;
 }
+.footer__sub-heading {
+  padding-bottom: 10px;
+}
 .footer__hours-table {
   display: flex;
   justify-content: space-between;
-}
-.footer__sub-heading {
-  padding-bottom: 10px;
 }
 .footer__hours-section {
   width: 45%;

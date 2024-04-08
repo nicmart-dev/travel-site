@@ -48,7 +48,8 @@
   &__card {
     position: relative;
     overflow: hidden; // to display rounded border on child img
-    box-shadow: $box-shadow; // put here as only applies to destination card, not itinerary.
+    border: 1px solid $color-neutral-dark;
+    box-shadow: $box-shadow;
     display: grid; // fit the entire image height
     transition: transform 0.3s ease; // not requirement, but simple transition to look better.
 
@@ -64,10 +65,12 @@
     max-width: 100%;
   }
   &__country {
+    color: $color-neutral-lightest;
     position: absolute;
     bottom: 0;
     right: 0;
     padding: 1.25rem;
     font-size: 1.25rem;
+    letter-spacing: 0px;
   }
 }

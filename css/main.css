@@ -46,6 +46,7 @@
 .destination__card {
   position: relative;
   overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.2);
   box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.2);
   display: grid;
   transition: transform 0.3s ease;
@@ -60,9 +61,11 @@
   max-width: 100%;
 }
 .destination__country {
+  color: #fff;
   position: absolute;
   bottom: 0;
   right: 0;
   padding: 1.25rem;
   font-size: 1.25rem;
+  letter-spacing: 0px;
 }/*# sourceMappingURL=main.css.map */
