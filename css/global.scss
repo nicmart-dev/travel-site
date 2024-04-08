@@ -97,43 +97,50 @@ main {
 }
 
 .footer {
-  padding: 2rem 5rem;
+  padding: 3rem 14rem;
   background-color: $color-neutral-light;
   display: flex;
   justify-content: space-between;
 
-  /* create a column for each footer category */
-  &__col {
-    display: inline-block;
-    box-sizing: border-box;
-    // padding-left: 10%;
-    vertical-align: top;
-    /* padding: 50px; */
-  }
+  /* distribute space between each section */
+  // &__contact-section,
+  // &__social-section {
+  //   flex-grow: 1;
+  // }
+  // &__hours-section {
+  //   flex-grow: 2;
+  // }
   &__heading {
     padding-bottom: 20px;
+  }
+  &__hours-table {
+    display: flex;
+    justify-content: space-between;
   }
   &__sub-heading {
     padding-bottom: 10px;
   }
-  &__email {
-  }
-  &__days-open {
-    display: flex;
-  }
-  &__day-hours {
-  }
-  &__hours {
-  }
 
-  &__social-link {
-    display: inline-block;
-    list-style-type: none;
-    // padding-right: 1.25rem;
+  &__hours-section {
+    width: 45%;
   }
+  &__social-section {
+    // margin-left: 1rem;
+    width: 15%;
+  }
+  &__social-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 2.5rem;
+    // width: 2rem;
+  }
+  // &__social-link {
+  //   width: 35%;
+  //   height: 1rem;
+  // }
 
   &__social-icon {
-    width: 40%;
-    height: auto;
+    height: 1.5rem;
   }
 }

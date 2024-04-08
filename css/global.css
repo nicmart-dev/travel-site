@@ -90,32 +90,34 @@ main {
 }
 
 .footer {
-  padding: 2rem 5rem;
+  padding: 3rem 14rem;
   background-color: #fefaf5;
   display: flex;
   justify-content: space-between;
-  /* create a column for each footer category */
-}
-.footer__col {
-  display: inline-block;
-  box-sizing: border-box;
-  vertical-align: top;
-  /* padding: 50px; */
+  /* distribute space between each section */
 }
 .footer__heading {
   padding-bottom: 20px;
 }
+.footer__hours-table {
+  display: flex;
+  justify-content: space-between;
+}
 .footer__sub-heading {
   padding-bottom: 10px;
 }
-.footer__days-open {
-  display: flex;
+.footer__hours-section {
+  width: 45%;
 }
-.footer__social-link {
-  display: inline-block;
-  list-style-type: none;
+.footer__social-section {
+  width: 15%;
+}
+.footer__social-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 2.5rem;
 }
 .footer__social-icon {
-  width: 40%;
-  height: auto;
+  height: 1.5rem;
 }/*# sourceMappingURL=global.css.map */

@@ -41,7 +41,7 @@
 .destination__cards {
   display: flex;
   justify-content: center;
-  padding: 0 12.5rem 2rem;
+  padding: 0 12.5rem 3rem;
 }
 .destination__card {
   position: relative;
