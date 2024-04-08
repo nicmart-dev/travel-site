@@ -82,6 +82,13 @@ h1 {
   padding-bottom: 0.4rem;
   border-bottom: 4px solid #db7a4e;
 }
+.header__link:hover {
+  padding-bottom: 0.4rem;
+  border-bottom: 4px solid #db7a4e;
+}
+ul:has(.header__link:hover) .header__link--active {
+  border-bottom: none;
+}
 
 main {
   margin-top: 3rem;
