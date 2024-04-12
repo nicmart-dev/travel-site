@@ -1,0 +1,5 @@
+_config.yml
+*.zip
+*.map
+.*md
+.github\
