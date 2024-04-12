@@ -88,8 +88,8 @@ h1 {
       padding-bottom: 0.4rem;
       border-bottom: 4px solid $color-secondary;
     }
-    // hide active link underline if hover another link. Open bug if hover on active link.
-    ul:has(&:hover) &--active {
+    // hide active link underline if hover another link.
+    ul:has(&:not(&--active):hover) &--active {
       border-bottom: none;
     }
   }
